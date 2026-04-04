@@ -1,6 +1,6 @@
 # Data Cockpit
 
-Data Cockpit is a small .NET library for building CRUD-oriented services on top of a domain model and an Entity Framework Core data layer. The repository separates the core CRUD abstractions from the EF Core implementation so applications can reuse a consistent repository shape across multiple entities.
+Data Cockpit is a small .NET library for studying CRUD-oriented services on top of a domain model and an Entity Framework Core data layer. The repository separates the core CRUD abstractions from the EF Core implementation so engineers can review a consistent repository shape across multiple entities.
 
 ## Highlights
 
@@ -38,3 +38,9 @@ dotnet build DataCockpit.sln
 
 - This repository is best suited for internal application use rather than as a full-featured public package.
 - The current implementation targets .NET 7 and can be modernized further if the library becomes an actively maintained shared dependency.
+
+## Usage Policy
+
+- This repository is shared for learning, technical review, and knowledge sharing.
+- No permission is granted to copy, reuse, modify, redistribute, sublicense, sell, publish as a package, deploy, or use this code in another repository, product, service, or internal system without prior written approval from the repository owner.
+- See [LICENSE](LICENSE), [NOTICE.md](NOTICE.md), [DISCLAIMER.md](DISCLAIMER.md), [CONTRIBUTING.md](CONTRIBUTING.md), and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).

@@ -28,3 +28,13 @@ By submitting any material, you confirm that you have the right to submit it and
 You grant the repository owner a perpetual, worldwide, irrevocable, royalty-free, sublicensable right to use, modify, adapt, publish, redistribute, relicense, or reject the submission without compensation.
 
 Do not contribute if you do not agree with these terms.
+
+## Commit Messages
+
+Use short, clean English commit messages with a clear action.
+
+Recommended style:
+
+- `Clarify library usage limits`
+- `Fix README wording`
+- `Add repository governance files`

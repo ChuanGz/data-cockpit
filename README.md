@@ -25,8 +25,16 @@ Data Cockpit is a small .NET library for studying CRUD-oriented services on top 
 ## Build
 
 ```bash
+dotnet restore DataCockpit.sln
 dotnet build DataCockpit.sln
 ```
+
+## Prerequisites and Validation
+
+- .NET 7 SDK
+- A consumer-provided EF Core `DbContext` and database provider for integration
+
+This repository has no executable host, database configuration, or automated test project. Restore and build the solution locally; exercise runtime behavior from a consuming application.
 
 ## Design Overview
 

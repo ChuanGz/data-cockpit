@@ -36,6 +36,14 @@ dotnet build DataCockpit.sln
 
 This repository has no executable host, database configuration, or automated test project. Restore and build the solution locally; exercise runtime behavior from a consuming application.
 
+## Usage and Testing
+
+Reference the core abstractions from application code and the EF Core project from infrastructure code, then supply a consumer-owned `DbContext`, mappings, and database provider. There is no repository test project; validate behavior in the consuming application's automated tests.
+
+## Security and Status
+
+The library does not own credentials or connection strings. Consumers must keep database secrets outside source control and enforce authorization above the repository layer. The projects target .NET 7, which is out of support, and should be upgraded before new production adoption.
+
 ## Design Overview
 
 - The core project defines generic model and repository contracts that stay independent from database concerns.
